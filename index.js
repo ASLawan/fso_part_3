@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(express.json());
 app.use(cors());
+app.use(express.static("dist"));
 
 // morgan token
 morgan.token("body", (req) => {
@@ -39,12 +40,12 @@ let persons = [
   },
 ];
 
-//default route
-app.get("/", (req, res) => {
-  res.json({
-    Hello: "World!",
-  });
-});
+// //default route
+// app.get("/", (req, res) => {
+//   res.json({
+//     Hello: "World!",
+//   });
+// });
 
 // GET all persons
 app.get("/api/persons", (req, res) => {
