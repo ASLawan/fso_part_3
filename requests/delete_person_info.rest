@@ -1,0 +1,5 @@
+DELETE http://localhost:5000/api/persons/:id
+
+{
+    id: 4
+}
