@@ -1,5 +1,5 @@
-DELETE http://localhost:5000/api/persons/:id
+DELETE http://localhost:5000/api/persons/66c795c24fb38b4313763e54
 
-{
-    id: 4
-}
+# {
+#     id: "4"
+# }

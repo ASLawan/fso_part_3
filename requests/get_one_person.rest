@@ -1,0 +1,5 @@
+GET http://localhost:5000/api/persons/66c795c24fb38b4313763e54
+
+# {
+#     id: "66c6b8e27c1a8125fba3fc42",
+# }
